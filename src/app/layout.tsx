@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'CommerceNext',
+  title: 'Steffens Sign & Design',
   description: 'A modern e-commerce experience built with Next.js and Shopify.',
 };
 
