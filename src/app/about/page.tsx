@@ -18,12 +18,11 @@ export default function AboutPage() {
       <section className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center mb-12 md:mb-20">
         <div className="aspect-video overflow-hidden rounded-lg shadow-lg">
           <Image
-            src="https://placehold.co/800x600.png"
+            src="/images/workshop.jpg"
             alt="The workshop at Steffen's Sign & Design"
             width={800}
             height={600}
             className="object-cover w-full h-full"
-            data-ai-hint="woodworking workshop"
           />
         </div>
         <div className="flex flex-col gap-4">
@@ -79,7 +78,7 @@ export default function AboutPage() {
       <section className="text-center bg-muted/50 rounded-lg p-8 md:p-12">
         <h2 className="text-3xl font-bold mb-6 font-headline">Meet the Founder</h2>
         <Avatar className="w-24 h-24 mx-auto mb-4 border-4 border-card">
-          <AvatarImage src="https://placehold.co/100x100.png" alt="John Steffen" data-ai-hint="portrait man" />
+          <AvatarImage src="/images/founder-portrait.jpg" alt="John Steffen" />
           <AvatarFallback>JS</AvatarFallback>
         </Avatar>
         <h3 className="text-xl font-semibold">John Steffen</h3>
