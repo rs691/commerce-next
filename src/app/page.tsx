@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect, useMemo } from 'react';
-import { Input } from '@/components/ui/input';
 import { ProductCard } from '@/components/ProductCard';
+import { Input } from '@/components/ui/input';
+import { Skeleton } from '@/components/ui/skeleton';
 import { getProducts } from '@/lib/shopify';
 import type { Product } from '@/lib/types';
-import { Skeleton } from '@/components/ui/skeleton';
-import { Search, Frown } from 'lucide-react';
+import { Frown, Search } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section aria-live="polite" aria-busy={loading}>
+      <section>
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {Array.from({ length: 8 }).map((_, i) => (

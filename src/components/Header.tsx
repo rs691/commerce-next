@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { ShoppingCart, Package2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Package2, ShoppingCart } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -9,13 +9,16 @@ export default function Header() {
         <div className="mr-4 md:mr-6">
             <Link href="/" className="flex items-center space-x-2">
             <Package2 className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg hidden sm:inline-block font-headline">CommerceNext</span>
+            <span className="font-bold text-lg hidden sm:inline-block font-headline">Steffen's Sign & Design</span>
             </Link>
         </div>
         
         <div className="flex flex-1 items-center justify-end space-x-2">
           <nav className="hidden md:flex gap-4">
               {/* Future navigation links can go here */}
+              <Link href="/custom" className="text-md font-medium text-muted-foreground hover:text-foreground">Custom</Link>
+              <Link href="/products" className="text-md font-medium text-muted-foreground hover:text-foreground">Products</Link>
+              <Link href="/about" className="text-md font-medium text-muted-foreground hover:text-foreground">About</Link>
           </nav>
           <Button variant="ghost" size="icon" aria-label="Shopping Cart">
             <ShoppingCart className="h-5 w-5" />
