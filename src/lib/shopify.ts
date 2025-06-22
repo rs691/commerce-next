@@ -8,9 +8,8 @@ const mockProducts: Product[] = [
     description: 'A beautiful and functional cutting board, crafted from solid maple wood. Personalize it with a name, date, or message to create a one-of-a-kind gift for weddings, anniversaries, or housewarmings. Perfect for both chopping and serving.',
     price: 65.00,
     images: [
-      { src: '/images/table.jpg', altText: 'Custom made wood table with chairs' },
-      { src: '/images/sign1.png', altText: 'Custom signs' },
-      { src: '/images/dresser.png', altText: 'Dresser made of solid Oak' },
+      { src: '/images/cutting-board-1.jpg', altText: 'Custom engraved cutting board on a kitchen counter' },
+      { src: '/images/cutting-board-2.jpg', altText: 'Detail of the engraving on the cutting board' },
     ],
   },
   {
@@ -20,8 +19,8 @@ const mockProducts: Product[] = [
     description: 'Make a statement with this stunning live edge coffee table. Made from a single slab of black walnut, it showcases the natural beauty and grain of the wood. Mounted on sleek, black metal legs for a modern industrial look.',
     price: 850.00,
     images: [
-      { src: '/images/table3.jpg', altText: 'Live edge walnut coffee table in a living room' },
-      { src: '/images/table2.jpg', altText: 'Close-up of the live edge and wood grain' },
+      { src: '/images/walnut-table-1.jpg', altText: 'Live edge walnut coffee table in a living room' },
+      { src: '/images/walnut-table-2.jpg', altText: 'Close-up of the live edge and wood grain' },
     ],
   },
   {
@@ -31,7 +30,7 @@ const mockProducts: Product[] = [
     description: 'Protect your surfaces in style with a set of four personalized wooden coasters. Made from acacia wood, each coaster can be engraved with a different initial or design. A thoughtful and practical gift for any home.',
     price: 35.00,
     images: [
-      { src: '/images/st-vid1.mp4', altText: 'How we do it' },
+      { src: '/images/coasters-1.jpg', altText: 'Set of personalized wooden coasters on a table' },
       { src: '/images/coasters-2.jpg', altText: 'A single coaster with a drink on it' },
     ],
   },
