@@ -52,7 +52,7 @@ export default function Header() {
                 <nav className="grid gap-6 text-lg font-medium p-4">
                   <Link href="/" className="flex items-center gap-2 font-semibold mb-4">
                       <Package2 className="h-6 w-6 text-primary" />
-                      <span>Steffen's</span>
+                      <span>Steffen's Sign & Design</span>
                   </Link>
                   {navLinks.map((link) => (
                     <Link
