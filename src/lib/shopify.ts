@@ -8,9 +8,9 @@ const mockProducts: Product[] = [
     description: 'A beautiful and functional cutting board, crafted from solid maple wood. Personalize it with a name, date, or message to create a one-of-a-kind gift for weddings, anniversaries, or housewarmings. Perfect for both chopping and serving.',
     price: 65.00,
     images: [
-      { src: '/images/cutting-board-1.jpg', altText: 'Custom engraved cutting board on a kitchen counter' },
-      { src: '/images/cutting-board-2.jpg', altText: 'Detail of the laser engraving on the wood' },
-      { src: '/images/cutting-board-3.jpg', altText: 'Cutting board with cheese and grapes' },
+      { src: '/images/table.jpg', altText: 'Custom made wood table with chairs' },
+      { src: '/images/table2.jpg', altText: 'Detail of the laser engraving on the wood' },
+      { src: '/images/table3.jpg', altText: 'Cutting board with cheese and grapes' },
     ],
   },
   {
