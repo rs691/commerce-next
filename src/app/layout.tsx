@@ -1,4 +1,5 @@
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { Toaster } from "@/components/ui/toaster";
 import type { Metadata } from 'next';
 import './globals.css';
@@ -24,6 +25,7 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="flex-grow">{children}</main>
+          <Footer />
         </div>
         <Toaster />
       </body>
