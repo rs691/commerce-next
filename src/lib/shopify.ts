@@ -9,7 +9,7 @@ const mockProducts: Product[] = [
     price: 65.00,
     images: [
       { src: '/images/table.jpg', altText: 'Custom made wood table with chairs' },
-      { src: '/images/table2.jpg', altText: 'Detail of the laser engraving on the wood' },
+      { src: '/images/table2.jpg', altText: 'Table ' },
       { src: '/images/table3.jpg', altText: 'Cutting board with cheese and grapes' },
     ],
   },
