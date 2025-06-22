@@ -28,7 +28,6 @@ export function ProductCard({ product, className }: ProductCardProps) {
               width={600}
               height={600}
               className="object-cover w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-105"
-              {...(product.images[0]['data-ai-hint'] && { 'data-ai-hint': product.images[0]['data-ai-hint'] })}
             />
           </div>
           <div className="p-4 border-t flex-grow flex flex-col justify-between">

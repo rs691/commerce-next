@@ -1,7 +1,6 @@
 export interface ProductImage {
   src: string;
   altText: string | null;
-  'data-ai-hint'?: string;
 }
 
 export interface Product {

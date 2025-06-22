@@ -53,7 +53,6 @@ export default async function ProductPage({ params }: { params: { id: string } }
                 height={800}
                 className="object-cover w-full h-full"
                 priority
-                {...(product.images[0]['data-ai-hint'] && { 'data-ai-hint': product.images[0]['data-ai-hint'] })}
             />
           </div>
           {product.images.length > 1 && (
@@ -66,7 +65,6 @@ export default async function ProductPage({ params }: { params: { id: string } }
                     width={200}
                     height={200}
                     className="object-cover w-full h-full"
-                    {...(image['data-ai-hint'] && { 'data-ai-hint': image['data-ai-hint'] })}
                   />
                 </div>
               ))}

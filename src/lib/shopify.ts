@@ -8,9 +8,9 @@ const mockProducts: Product[] = [
     description: 'A beautiful and functional cutting board, crafted from solid maple wood. Personalize it with a name, date, or message to create a one-of-a-kind gift for weddings, anniversaries, or housewarmings. Perfect for both chopping and serving.',
     price: 65.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Custom engraved cutting board on a kitchen counter', 'data-ai-hint': 'cutting board' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Detail of the laser engraving on the wood', 'data-ai-hint': 'wood engraving' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Cutting board with cheese and grapes', 'data-ai-hint': 'charcuterie board' },
+      { src: '/images/cutting-board-1.jpg', altText: 'Custom engraved cutting board on a kitchen counter' },
+      { src: '/images/cutting-board-2.jpg', altText: 'Detail of the laser engraving on the wood' },
+      { src: '/images/cutting-board-3.jpg', altText: 'Cutting board with cheese and grapes' },
     ],
   },
   {
@@ -20,8 +20,8 @@ const mockProducts: Product[] = [
     description: 'Make a statement with this stunning live edge coffee table. Made from a single slab of black walnut, it showcases the natural beauty and grain of the wood. Mounted on sleek, black metal legs for a modern industrial look.',
     price: 850.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Live edge walnut coffee table in a living room', 'data-ai-hint': 'wood table' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Close-up of the live edge and wood grain', 'data-ai-hint': 'wood grain' },
+      { src: '/images/walnut-table-1.jpg', altText: 'Live edge walnut coffee table in a living room' },
+      { src: '/images/walnut-table-2.jpg', altText: 'Close-up of the live edge and wood grain' },
     ],
   },
   {
@@ -31,8 +31,8 @@ const mockProducts: Product[] = [
     description: 'Protect your surfaces in style with a set of four personalized wooden coasters. Made from acacia wood, each coaster can be engraved with a different initial or design. A thoughtful and practical gift for any home.',
     price: 35.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Set of personalized wooden coasters', 'data-ai-hint': 'wood coasters' },
-      { src: 'https://placehold.co/800x800.png', altText: 'A single coaster with a drink on it', 'data-ai-hint': 'coaster drink' },
+      { src: '/images/coasters-1.jpg', altText: 'Set of personalized wooden coasters' },
+      { src: '/images/coasters-2.jpg', altText: 'A single coaster with a drink on it' },
     ],
   },
   {
@@ -42,8 +42,8 @@ const mockProducts: Product[] = [
     description: 'A beautifully turned bowl made from cherry wood, perfect for serving salads, fruits, or as a decorative centerpiece. The food-safe finish highlights the natural warmth and color of the cherry wood. Each bowl is unique.',
     price: 120.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Handcrafted wooden bowl on a dining table', 'data-ai-hint': 'wooden bowl' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Empty wooden bowl showing the interior grain', 'data-ai-hint': 'wood texture' },
+      { src: '/images/wood-bowl-1.jpg', altText: 'Handcrafted wooden bowl on a dining table' },
+      { src: '/images/wood-bowl-2.jpg', altText: 'Empty wooden bowl showing the interior grain' },
     ],
   },
   {
@@ -53,8 +53,8 @@ const mockProducts: Product[] = [
     description: 'Add a touch of modern, rustic charm to your walls with this geometric wood art piece. Created from reclaimed wood pieces arranged in a striking pattern, it brings texture and warmth to any room.',
     price: 250.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Geometric wooden wall art hanging on a wall', 'data-ai-hint': 'wood art' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Detail of the different wood tones and textures', 'data-ai-hint': 'reclaimed wood' },
+      { src: '/images/wall-art-1.jpg', altText: 'Geometric wooden wall art hanging on a wall' },
+      { src: '/images/wall-art-2.jpg', altText: 'Detail of the different wood tones and textures' },
     ],
   },
   {
@@ -64,8 +64,8 @@ const mockProducts: Product[] = [
     description: 'A beautiful, rustic sign personalized with your family name and established date. Carved from solid pine, this sign is perfect for an entryway, living room, or as a gallery wall centerpiece. A cherished family keepsake.',
     price: 95.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Custom family name sign hanging in a home', 'data-ai-hint': 'wood sign' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Close-up of the carved lettering', 'data-ai-hint': 'wood carving' },
+      { src: '/images/family-sign-1.jpg', altText: 'Custom family name sign hanging in a home' },
+      { src: '/images/family-sign-2.jpg', altText: 'Close-up of the carved lettering' },
     ],
   },
   {
@@ -75,8 +75,8 @@ const mockProducts: Product[] = [
     description: 'Minimalist and functional, these floating bookshelves are made from solid oak. They provide a clean, contemporary way to display your favorite books and decor items. Available in various lengths to fit your space.',
     price: 79.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Floating oak bookshelf with books on it', 'data-ai-hint': 'wood shelf' },
-      { src: 'https://placehold.co/800x800.png', altText: 'A set of three floating shelves on a wall', 'data-ai-hint': 'wall shelves' },
+      { src: '/images/bookshelf-1.jpg', altText: 'Floating oak bookshelf with books on it' },
+      { src: '/images/bookshelf-2.jpg', altText: 'A set of three floating shelves on a wall' },
     ],
   },
   {
@@ -86,8 +86,8 @@ const mockProducts: Product[] = [
     description: 'A sophisticated storage solution for the watch collector. This glass-topped box is made from dark walnut wood and can be personalized with an engraved monogram. Lined with soft velvet to protect your timepieces.',
     price: 150.00,
     images: [
-      { src: 'https://placehold.co/800x800.png', altText: 'Engraved wooden watch box holding several watches', 'data-ai-hint': 'watch box' },
-      { src: 'https://placehold.co/800x800.png', altText: 'Detail of the engraving on the watch box lid', 'data-ai-hint': 'engraved box' },
+      { src: '/images/watch-box-1.jpg', altText: 'Engraved wooden watch box holding several watches' },
+      { src: '/images/watch-box-2.jpg', altText: 'Detail of the engraving on the watch box lid' },
     ],
   },
 ];
