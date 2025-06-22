@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import "tailwindcss";
 
 html, body {
@@ -9,8 +8,6 @@ html, body {
   background-color: #FDFBF8; /* Warm Off-White */
   color: #402E32; /* Deep Brown */
 }
-=======
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
 /* Specific font-family classes remain for explicit usage */
 .font-serif {
   font-family: 'Playfair Display', serif;
@@ -28,24 +25,15 @@ html, body {
   bottom: -4px;
   left: 50%;
   transform: translateX(-50%);
-<<<<<<< HEAD
   background-color: #B48A6E; /* Muted Terracotta */
-=======
-  background-color: hsl(var(--secondary));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   transition: width 0.3s;
 }
 .nav-link:hover::after, .nav-link.active::after {
   width: 100%;
 }
 .btn-primary {
-<<<<<<< HEAD
   background-color: #8C5A4F;
   color: #fff;
-=======
-  background-color: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
@@ -57,22 +45,13 @@ html, body {
   padding-bottom: 0.75rem;
 }
 .btn-primary:hover {
-<<<<<<< HEAD
   background-color: #7a4e44;
-=======
-  filter: brightness(0.9);
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   transform: translateY(-2px);
 }
 
 .btn-secondary {
-<<<<<<< HEAD
   background-color: #B48A4E;
   color: #fff;
-=======
-  background-color: hsl(var(--secondary));
-  color: hsl(var(--secondary-foreground));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.5rem;
@@ -84,11 +63,7 @@ html, body {
   padding-bottom: 0.75rem;
 }
 .btn-secondary:hover {
-<<<<<<< HEAD
   background-color: #a17a61;
-=======
-  filter: brightness(0.9);
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   transform: translateY(-2px);
 }
 
@@ -97,30 +72,18 @@ html, body {
   font-size: 2.25rem; /* 4xl */
   font-weight: bold;
   margin-bottom: 1rem;
-<<<<<<< HEAD
   color: #8C5A4F;
 }
 .section-subtitle {
   font-size: 1.125rem; /* lg */
   color: #6D5D5D;
-=======
-  color: hsl(var(--primary));
-}
-.section-subtitle {
-  font-size: 1.125rem; /* lg */
-  color: hsl(var(--muted-foreground));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
 }
 .card {
-<<<<<<< HEAD
   background-color: #fff;
-=======
-  background-color: hsl(var(--card));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   border-radius: 0.75rem;
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1);
   overflow: hidden;
@@ -157,7 +120,6 @@ html, body {
   border-style: solid;
 }
 .filter-btn.active {
-<<<<<<< HEAD
   background-color: #8C5A4F;
   color: #fff;
   border-color: #8C5A4F;
@@ -170,20 +132,6 @@ html, body {
 .filter-btn:not(.active):hover {
   background-color: #8C5A4F;
   color: #fff;
-=======
-  background-color: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
-  border-color: hsl(var(--primary));
-}
-.filter-btn:not(.active) {
-  background-color: transparent;
-  color: hsl(var(--primary));
-  border-color: hsl(var(--primary));
-}
-.filter-btn:not(.active):hover {
-  background-color: hsl(var(--primary));
-  color: hsl(var(--primary-foreground));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
 }
 
 .modal {
@@ -200,11 +148,7 @@ html, body {
   transition: opacity 0.3s;
 }
 .modal-content {
-<<<<<<< HEAD
   background-color: #fff;
-=======
-  background-color: hsl(var(--card));
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
   border-radius: 0.5rem;
   box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
   padding: 1rem;
@@ -212,8 +156,4 @@ html, body {
   max-width: 48rem;
   width: 100%;
   max-height: 90vh;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e6026c2 (The NextJS app server is having trouble starting. Please identify what c)
